@@ -1,0 +1,1067 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:onto="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemEstilo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemEstilo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemIdade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemIdade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Aluno"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemNome -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemNome">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Aluno"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmAnalise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmAnalise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>AbordagemBaseadaEmAnalise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmDialogo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmDialogo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>AbordagemBaseadaEmDialogo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmExemplos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmExemplos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>AbordagemBaseadaEmExemplos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmSimulacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmSimulacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>AbordagemBaseadaEmSimulacao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Aluno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Aluno">
+        <rdfs:label>Aluno</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ambiente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ambiente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#CaracteristicasDeEstudo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderComFiguraDeAutoridade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderComFiguraDeAutoridade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderEmGrupo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderEmGrupo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderSozinho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderSozinho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ativo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosEducativos"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#GruposDeEstudo"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Processamento"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo"/>
+        <rdfs:label>Ativo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#CaracteristicasDeEstudo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#CaracteristicasDeEstudo">
+        <rdfs:label>CaracteristicasDeEstudo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Conceitos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Conceitos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detectivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detectivo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Quiz"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosPraticos"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Percepcao"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Intuitivo"/>
+        <rdfs:label>Detectivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Diagramas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Diagramas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Entendimento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Entendimento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem"/>
+        <rdfs:label>Entendimento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem">
+        <rdfs:label>EstilosDeAprendizagem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exemplos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exemplos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExerciciosPraticos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExerciciosPraticos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Experimentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Experimentos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Global -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Global">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Resumo"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Entendimento"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Sequencial"/>
+        <rdfs:label>Global</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem"/>
+        <rdfs:label>Input</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Intuitivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Intuitivo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ModeloMatematico"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoConceitual"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosTeoricos"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Percepcao"/>
+        <rdfs:label>Intuitivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosAdivinhacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosAdivinhacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosEducativos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosEducativos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Percepcao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Percepcao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem"/>
+        <rdfs:label>Percepcao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Pesquisar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Pesquisar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Processamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Processamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstilosDeAprendizagem"/>
+        <rdfs:label>Processamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmAnalise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmAnalise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmAnalise"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Intuitivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Sequencial"/>
+        <rdfs:label>RecomendaAbordagemBaseadaEmAnalise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmDialogo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmDialogo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmDialogo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Verbal"/>
+        <rdfs:label>RecomendaAbordagemBaseadaEmDialogo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmExemplos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmExemplos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmExemplos"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detectivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:label>RecomendaAbordagemBaseadaEmExemplos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmSimulacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmSimulacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AbordagemBaseadaEmSimulacao"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detectivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Global"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual"/>
+        <rdfs:label>RecomendaAbordagemBaseadaEmSimulacao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens">
+        <rdfs:label>RecomendaTecnicaAbordagens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaLinguagemFluxografica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaLinguagemFluxografica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaLinguagemFluxografica"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual"/>
+        <rdfs:label>RecomendaTecnicaLinguagemFluxografica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaTesteDeMesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaTesteDeMesa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaTesteDeMesa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Verbal"/>
+        <rdfs:label>RecomendaTecnicaTesteDeMesa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaVisualEmBlocos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaVisualEmBlocos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Ativo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Intuitivo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaAbordagens"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Sequencial"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaVisualEmBlocos"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual"/>
+        <rdfs:label>RecomendaTecnicaVisualEmBlocos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Refletir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Refletir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Reflexivo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Refletir"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoCharada"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoQuebraCabeca"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#LivroEnsino"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoIndividual"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Processamento"/>
+        <rdfs:label>Reflexivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#CaracteristicasDeEstudo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Sequencial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Sequencial">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExercicioSequencial"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#MetasDeEstudo"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detalhes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Entendimento"/>
+        <rdfs:label>Sequencial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Simulacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Simulacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Som -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Som">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaLinguagemFluxografica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaLinguagemFluxografica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>TecnicaLinguagemFluxografica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaTesteDeMesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaTesteDeMesa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>TecnicaTesteDeMesa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaVisualEmBlocos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicaVisualEmBlocos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino"/>
+        <rdfs:label>TecnicaVisualEmBlocos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TecnicasAbordagensDeEnsino">
+        <rdfs:label>TecnicasAbordagensDeEnsino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Teorias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Teorias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Texto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Texto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Verbal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Verbal">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Texto"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#LivroEnsino"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Dialogo"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Input"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual"/>
+        <rdfs:label>Verbal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Visual">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#DiagramaClasses"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemFacilidade"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Fluxograma"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Desenhos"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Imagens"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#TemPreferencia"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Tabelas"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Input"/>
+        <rdfs:label>Visual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Adapt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Adapt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmExemplos"/>
+        <rdfs:label>Adapt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AppInventor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AppInventor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaVisualEmBlocos"/>
+        <rdfs:label>AppInventor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AtividadeExemplo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AtividadeExemplo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Texto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Blockly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Blockly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaVisualEmBlocos"/>
+        <rdfs:label>Blockly</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Desenhos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Desenhos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detalhes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detalhes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#DiagramaClasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#DiagramaClasses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Diagramas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Dialogo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Dialogo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoConceitual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoConceitual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Conceitos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoIndividual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderSozinho"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoReflexivo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoReflexivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Refletir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosPraticos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosPraticos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exemplos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExerciciosPraticos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosTeoricos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosTeoricos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exemplos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Teorias"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExercicioSequencial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExercicioSequencial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exercicio_IF01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exercicio_IF01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaLinguagemFluxografica"/>
+        <rdfs:label>Exercicio_IF01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exercicio_IF02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Exercicio_IF02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaTesteDeMesa"/>
+        <rdfs:label>Exercicio_IF02</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Fluxograma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Fluxograma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Diagramas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Giselle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Giselle">
+        <TemFacilidade rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Detalhes"/>
+        <TemFacilidade rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Fluxograma"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoIndividual"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoReflexivo"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExemplosPraticos"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExercicioSequencial"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Imagens"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#MetasDeEstudo"/>
+        <TemIdade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TemIdade>
+        <TemNome>Giselle</TemNome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#GruposDeEstudo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#GruposDeEstudo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#AprenderEmGrupo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Imagens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Imagens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoCharada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoCharada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosEducativos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoQuebraCabeca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoQuebraCabeca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosEducativos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ExerciciosPraticos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#LivroEnsino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#LivroEnsino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Texto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#MetasDeEstudo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#MetasDeEstudo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ModeloMatematico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ModeloMatematico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#CaracteristicasDeEstudo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Navex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Navex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmExemplos"/>
+        <rdfs:label>Navex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PESEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PESEN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmSimulacao"/>
+        <rdfs:label>PESEN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PROPL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PROPL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmDialogo"/>
+        <rdfs:label>PROPL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PortugolIDE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#PortugolIDE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaTecnicaLinguagemFluxografica"/>
+        <rdfs:label>PortugolIDE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Quiz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Quiz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogosAdivinhacao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Resumo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Resumo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Rodolfo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Rodolfo">
+        <TemFacilidade rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#JogoQuebraCabeca"/>
+        <TemFacilidade rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#LivroEnsino"/>
+        <TemFacilidade rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Resumo"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#EstudoConceitual"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#GruposDeEstudo"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#ListaDeExercicios"/>
+        <TemPreferencia rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo"/>
+        <TemNome>Rodolfo</TemNome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Scratch3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Scratch3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmSimulacao"/>
+        <rdfs:label>Scratch3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Tabelas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#Tabelas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VideoAula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VideoAula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RepresentacaoDeInformacoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#VisaoDoTodo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#WADEin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#WADEin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giselle/ontologies/2018/4/untitled-ontology-5#RecomendaAbordagemBaseadaEmSimulacao"/>
+        <rdfs:label>WADEin</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
